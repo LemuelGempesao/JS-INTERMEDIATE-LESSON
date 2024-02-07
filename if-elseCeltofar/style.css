@@ -1,0 +1,39 @@
+.container{
+    
+   
+    background-color: rgb(96, 142, 240);
+    margin: 0 auto;
+    height:50vh;
+    width:500px;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow:0 0 4px 2px rgb(96, 134, 240)
+
+}
+
+.container .label{
+    font-weight: 600;
+    display: block;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+#lfar, #lcel{
+    margin-top: -12px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container .temp{
+   width: 200px;
+   height: 20px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.unit #submit{
+    margin: 40px auto;
+    display: block;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <label class="label" for="temp">Enter Temperature:</label>
+        <input type="number" id="temps" class="temp">
+
+        <div class="unit">
+            <p>Convert to: <p>
+            <label for="celsius" id="lcel">Celsius
+                <input type="radio" id="cel" name="unit">
+            </label>
+            
+            <label for="far" id="lfar">Farenheit
+                <input type="radio" id="far" name="unit">
+            </label>
+            <button id="submit">Submit</button>
+
+
+        </div>
+        <label id="result"></label>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
