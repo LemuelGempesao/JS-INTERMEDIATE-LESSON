@@ -1,10 +1,18 @@
 *{
     margin: 0;
-    
    
 }
 
-.object{
+body{
+    background:linear-gradient(to bottom, rgb(70, 36, 36), rgb(198, 198, 218));
+    width:1000px;
+    height: 100vh
+
+}
+
+.object1{
+   top:150px;
+    margin-bottom:130px;
     font-size: 4em;
     text-align: center;
     display: flex;
@@ -12,8 +20,26 @@
     align-items: center;
     width: 130px;
     height: 130px;
-    background-color: brown;
+    background:linear-gradient(to bottom, red, blue);
     border-radius: 50%;
     position: absolute;
+    box-shadow: 0 0 6px 5px black;
+    
+}
+
+.object2{
+   
+    font-size: 4em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(182, 11, 111);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 6px 5px black;
+    
     
 }
